@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bona Nova SC", serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+.container{
+    width: 400px;
+    background-color: #D4BEE4;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+form{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    background-color: #ffffff;
+    width: 100px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    background-color: #9B7EBD;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3B1E54;
+}
+h3{
+  color: #3B1E54;
+}
+li{
+    background-color: #EEEEEE;
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
